@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Контакты — Magical Skin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">Magical Skin</a>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="container contact">
+    <h1>Связаться с нами</h1>
+    <p class="lead">Оставьте заявку — менеджер свяжется с вами для подтверждения.</p>
+
+    <form class="contact-form" onsubmit="return false;">
+      <label>Имя
+        <input type="text" placeholder="Ваше имя" disabled>
+      </label>
+
+      <label>Телефон
+        <input type="text" placeholder="+375..." disabled>
+      </label>
+
+      <label>Товар (по желанию)
+        <select disabled>
+          <option>Увлажняющий крем</option>
+          <option>Очищающая пенка</option>
+          <option>Питательная маска</option>
+          <option>Гель для умывания</option>
+        </select>
+      </label>
+
+      <label>Комментарий
+        <textarea placeholder="Сообщение" disabled></textarea>
+      </label>
+
+      <button class="btn" disabled>Отправить заявку</button>
+      <p class="muted small">Форма демонстрационная — пока не отправляет данные.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Magical Skin</p>
+  </div>
+</footer>
+</body>
+</html>
